@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #050404;
+}
+nav,ul{
+    display: inline-block;
+    vertical-align: middle;
+}
+img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 22px;
+}
+.wrapper{
+    padding: 30px;
+    margin: 0 auto;
+    width: 1200px;
+}
+.menu{
+    list-style-type: none;
+    color: #f7eeee;
+    display: inline-block;
+    font-size: 35px;
+    padding-right:40px;
+    vertical-align: middle;
+}
+form {
+    display: inline-block;
+    vertical-align: middle;
+}
+.input-search {
+    content: "";
+    position: relative;
+    color:white;
+    background-image: url("image/search.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #000;
+    border-color: #000;
+    color: white;
+}
+.input-lupa {
+    content: "";
+    background-image: url("image/lupa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 28%;
+    top: 6.7%;
+    background-color: #000;
+}
+
+.menu:nth-child(4) {
+    color: #D0961B;
+}
+
+.back{
+    margin-top: 30px;
+    content: "";
+    background-image: url(image/photo.png);
+    background-repeat: no-repeat;
+    width: 1100px;
+    height: 100vh;
+}
+.text{
+    padding-top: 20em;    
+}
+h1,h2{
+    margin: auto;
+    width: 6em;
+    text-shadow: 1px 1px 1px #000;
+}
+h1{
+    font-size: 100px;
+    color: #D0961B;
+}
+h2{
+    font-size: 36px;
+    color: white;
+    margin-left: 200px;
+}
